@@ -355,7 +355,6 @@ public class TelaCalculadora extends javax.swing.JFrame {
         // TODO add your handling code here:
         String textoAtual = lblResultado.getText();
     
-    // Se o texto tiver mais de 1 número (ex: "154")
     if (textoAtual.length() > 1) {
         String novoTexto = textoAtual.substring(0, textoAtual.length() - 1);
         lblResultado.setText(novoTexto);
